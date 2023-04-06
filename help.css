@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+.up_block{
+    height: 120px;
+    width:1280px;
+    background-color:#F0F0F0;
+    position: relative;
+
+    margin-bottom: 30px;
+}
+.button_back
+{
+    
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:20px;
+}
+.spisok
+{
+    margin-left: 70px;
+    width: 1100px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+}
+h2
+{
+    margin-left: 170px;
+}
+
+.op
+{
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: 100px;
+    text-indent: 1.5em;
+    line-height: 1.5;
+}

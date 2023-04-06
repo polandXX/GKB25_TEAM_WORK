@@ -1,0 +1,73 @@
+.table1
+{
+    width: 1250px;
+    justify-content: space-between;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.table1 th 
+{
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #999999;
+    padding: 0px 5px;
+}
+.table1 td 
+{
+    border: 1px solid #999999;
+    padding: 5px 5px;
+}
+.table2
+{
+    width: 1250px;
+    justify-content: space-between;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.table2 th 
+{
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #999999;
+    padding: 0px 5px;
+}
+.table2 td 
+{
+    border: 1px solid #999999;
+    padding: 5px 5px;
+}
+.table3
+{
+    width: 1250px;
+    justify-content: space-between;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.table3 th 
+{
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #999999;
+    padding: 0px 5px;
+}
+.table3 td 
+{
+    border: 1px solid #999999;
+    padding: 5px 5px;
+}
+
+.button_back{
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    border: none;
+    position:absolute;
+}
+    
