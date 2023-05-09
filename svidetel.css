@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+::-webkit-scrollbar
+{
+  
+    background: #dcdcdc;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #4a8452;
+}
+.up_block{
+    height: 120px;
+    width:1280px;
+    background-color:#F0F0F0;
+    position: relative;
+
+    margin-bottom: 30px;
+}
+.button_back
+{
+    
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:20px;
+}
+.e1
+{
+    margin-left: -50px;
+    margin-right: 0px;
+    width: 700px;
+    height: 1000px;
+}
+.e2
+{
+    margin-left: -50px;
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+}
+.e3
+{
+    margin-left: -50px;
+    width: 700px;
+    height: 1000px;
+}

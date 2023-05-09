@@ -1,0 +1,177 @@
+.headerr
+{
+    margin-left: -15px;
+    margin-top: -10px;
+    height: 120px;
+    width: 1280px;
+    background-color: #F0F0F0;
+}
+
+.header
+{
+    margin-top: -85px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo
+{
+    position: absolute;
+    margin-top: -105px;
+    width: 90px;
+    height: 90px;
+}
+
+.but1
+{
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-size: 70%;
+    border: none;
+    color: white;
+    background-image: url(./image/logobol.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.but2
+{
+   
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-image: url(./image/Навигатион.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+
+.but3
+{
+   
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-image: url(./image/image_human.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border: none;
+    color: white;
+}
+
+.but4
+{
+    
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-image: url(./image/доки.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border: none;
+    color: white;
+}
+
+.but5
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-image: url(./image/ОМС.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    border: none;
+    color: white;
+}
+
+.but6
+{
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-color: #0f9640;
+    background-image: url(./image/Контакты.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border: none;
+    color: white;
+}
+
+.but7
+{
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-image: url(./image/MKC.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border: none;
+    color: white;
+}
+
+.but8
+{
+    width: 300px;
+    height: 300px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-image: url(./image/corruption.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border: none;
+    color: white;
+}
+
+.but9
+{
+    margin-left: 14px;
+    margin-top: 10px;
+    width: 605px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    border: none;
+    color: white;
+}
+
+.but10
+{
+    width: 605px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body            
+{
+    margin:auto;
+    height: 800px;
+    width: 1250px;
+    padding:10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+::-webkit-scrollbar
+{
+  
+    background: #dcdcdc;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #4a8452;
+}
+.header-text
+{
+position: absolute;
+    width: 1200px;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+.p1
+{
+    margin-top: 40px;
+    margin-left: 535px;
+    
+}
+.pri
+{
+    margin-left: 50px;
+}
+.pol
+{
+    margin-left: 50px;
+    width: 1100px;
+    text-align: justify;
+    text-indent: 1.5em;
+    line-height: 1.5;
+}
+.spisok
+{
+    margin-left: 74px;
+    width: 1100px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.spisok1
+{
+    margin-left: 35px;
+    width: 1100px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.spisok2
+{
+    margin-left: 74px;
+    width: 1100px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.terr
+{
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 700px;
+    text-align: center;
+    
+}
+.utver
+{
+    margin-left: 1000px;
+    text-align: center;
+    width: 200px;
+    
+}
+.button_back
+{
+    
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:20px;
+}
+.left_arrow{
+    background-color: transparent;
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 900px;
+    border: none;
+}
+.right_arrow{
+    background-color: transparent;
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 1150px;
+    border: none;
+}
+.box{
+    
+    width:70px;
+    height: 70px;
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 1035px;
+    border-style: solid;
+}
+.number{
+    padding-top: 40px;
+    font-size: 40px;
+    padding-left:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+.number_center{
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 1032px;
+}

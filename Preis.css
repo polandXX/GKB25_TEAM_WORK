@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body            
+{
+    height: 800px;
+    width: 1250px;
+    padding:10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    background-position-y: -10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::-webkit-scrollbar
+{
+  
+    background: #dcdcdc;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #4a8452;
+}
+.up_block{
+    height: 120px;
+    width:1280px;
+    background-color:#F0F0F0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.button_back
+{
+    border: none;
+    background-color: transparent;
+    margin-left: -600px;
+    padding-top: 100px;
+    padding-bottom:20px;
+}
+.left_arrow{
+    background-color: transparent;
+    position:absolute;
+    margin-left: 450px;
+    border: none;
+}
+.right_arrow{
+    background-color: transparent;
+    position:absolute;
+    margin-left: 700px;
+    border: none;
+}
+.box{
+    
+    width:70px;
+    height: 70px;
+    position:absolute;
+    margin-top: 230px;
+    margin-left: 1035px;
+    border-style: solid;
+}
+.number{
+    padding-top: 40px;
+    font-size: 40px;
+    padding-left:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+.number_center{
+    position:absolute;
+    margin-left: 582px;
+}
+.num
+{
+    margin-left: 150px;
+    margin-right: 0px;
+    width: 1000px;
+    height: 1350px;
+}
+
+
+.pr1
+{
+    margin-top: 10px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr2
+{
+    margin-top: 80px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr3
+{
+    margin-top: 150px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr4
+{
+    margin-top: 220px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr5
+{
+    margin-top: 290px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr6
+{
+  
+    margin-top: 360px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr7
+{
+    margin-top: 430px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr8
+{
+ 
+    margin-top: 500px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr9
+{
+ 
+    margin-top: 570px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr10
+{
+   
+    margin-top: 640px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr11
+{
+   
+    margin-top: 710px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr12
+{
+    
+    margin-top: 780px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr13
+{
+    
+    margin-top: 850px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr14
+{
+    
+    margin-top: 920px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr15
+{
+    
+    margin-top: 990px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr16
+{
+   
+    margin-top: 1060px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr17
+{
+
+    margin-top: 1130px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr18
+{
+    
+    margin-top: 1200px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr19
+{
+    
+    margin-top: 1270px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr20
+{
+  
+    margin-top: 1340px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr21
+{
+
+    margin-top: 1410px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr22
+{
+    margin-top: 1480px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr23
+{
+
+    margin-top: 1550px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr24
+{
+
+    margin-top: 1620px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr25
+{
+    margin-top: 1690px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr26
+{
+    margin-top: 1760px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+.pr27
+{
+  margin-top: 1830px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    opacity: .8;
+    font-size: 20px;
+    background-color: #0f9640;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: white;
+}
+
+.price
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 1600px;
+}
+.price0_4
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+}
+.price0_5
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 350px;
+}
+.price0_6
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 1300px;
+}
+.price0_7
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 1150px;
+}
+
+.price1
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 950px;
+}
+.price2
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 2300px;
+}
+.price4
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 3000px;
+}
+.price5
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 3700px;
+}
+.price6
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 2900px;
+}
+.price7
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 2000px;
+}
+.price13
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 1600px;
+}
+.price8
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 2800px;
+}
+.price22
+{
+    margin-left: 22px;
+    margin-top: 100px;
+    align-items: center;
+    width: 1200px;
+    height: 1250px;
+}
+.block_100{
+   
+    height: 100px;
+    width:100px;
+    position: absolute;
+
+}
+
+.container{
+    
+    width:1280px;
+    background-color:#ffffff;
+    position: relative;
+}
+.container_ul{
+    margin-left: 20px;
+    width:1230px;
+    
+}
+.container_ul_without_color{
+    margin-left: 20px;
+    width:1230px;
+    background-color: transparent;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+.logo-img
+{
+    position: absolute;
+    margin-top: -30px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.button_back1{
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    border: none;
+    position:absolute;
+    margin-top: -4px;
+}
+.categorii
+{
+    width: 900px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+   position: absolute;
+   margin-top: 100px;
+   background-color: #F0F0F0;
+   height: 1900px;
+}
+.buttons
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 905px;
+    background-color: #F0F0F0;
+    background-position-x: 300px;
+    background-position-y: -300px;
+    width: 300px;
+    height: 1900px;
+}
+.text
+{
+    margin-top: 10px;
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text2
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text3
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text4
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text5
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text6
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text7
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text8
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text9
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text10
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text11
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text12
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text13
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text14
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text15
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text16
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text17
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text18
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text19
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text20
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text21
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text22
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text23
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text24
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text25
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text26
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+.text27
+{
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+
