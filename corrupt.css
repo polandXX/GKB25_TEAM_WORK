@@ -29,6 +29,8 @@ body{
     background-color:#F0F0F0;
     position: relative;
 
+    margin-top: -10px;
+    margin-left: -10px;
     margin-bottom: 30px;
 }
 .block_100
@@ -89,6 +91,7 @@ body{
     padding-bottom: 10px;
     padding-left:12px;
 
+    margin-left: -10px;
     margin-top: 14px;
     margin-bottom: 14px;
 
@@ -104,7 +107,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:12px;
-
+    margin-left: -10px;
     margin-top: 14px;
     margin-bottom: 14px;
 
@@ -120,7 +123,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:12px;
-
+    margin-left: -10px;
     margin-top: 14px;
     margin-bottom: 14px;
 
@@ -136,7 +139,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:12px;
-
+    margin-left: -10px;
     margin-top: 14px;
     margin-bottom: 14px;
 
@@ -152,7 +155,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:12px;
-
+    margin-left: -10px;
     margin-top: 14px;
     margin-bottom: 14px;
 
@@ -168,7 +171,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:12px;
-
+    margin-left: -10px;
     margin-top: 14px;
     margin-bottom: 14px;
 
@@ -181,7 +184,6 @@ body{
     padding-top: 10px;
     padding-bottom:20px;
     border: none;
-    position:absolute;
     background-color: transparent;
 }
 .font_32_low_pading

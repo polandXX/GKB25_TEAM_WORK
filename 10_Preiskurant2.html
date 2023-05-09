@@ -8,47 +8,130 @@
     <link rel="stylesheet" href="./sus1.css">
     <link rel="stylesheet" href="license.css">
     <link rel="stylesheet" href="normilize.css">
-    <script src="navigation.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Preis.css">
+    <link rel="stylesheet" media="screen,projection" href="ui.totop.css"/>
+    
+    <script src="navigation2.js"></script>
+    <script src="./easing.js"></script>
+    <script src="./jquery-1.7.2.min.js"></script>
+    <script src="./jquery.ui.totop.js"></script>
+    <script src="./jquery.ui.totop.min.js"></script>
+    <title>Выбор категорий</title>
 </head>
 <body>
     <div class="headerr"></div>
     <header>
         <section class="header">
-            Прейскурант. Страница 2
+            Прейскурант. Выбор категорий
         </section>
     <div class="logo-img">
         <img src="image/MKC.png" alt="ГКБ№25" class="logo">
     </div>
-
-
-</div>
-<div class="lic">
-    <img src="Preiskurant/Прейскурант на 12.01.2023-07.png" alt="" class="l1">
-    <img src="Preiskurant/Прейскурант на 12.01.2023-08.png" alt="" class="l2">
-    <img src="Preiskurant/Прейскурант на 12.01.2023-09.png" alt="" class="l3">
-    <img src="Preiskurant/Прейскурант на 12.01.2023-10.png" alt="" class="l4">
-    <img src="Preiskurant/Прейскурант на 12.01.2023-11.png" alt="" class="l5">
-    <img src="Preiskurant/Прейскурант на 12.01.2023-12.png" alt="" class="l6">
-    
-</div>
-</header>
-
-
-<div class="smth">
-    <button onclick="OPEN_INDEX('10_Preiskurant3')" type="button" class="right_arrow">
-        <img src="image/arrow_right.png" alt="">
+    <button onclick="OPEN_INDEX('mkc')" type="button" class="button_back1">
+        <img src="image/button_back.png" alt="">
     </button>
-    <button onclick="OPEN_INDEX('10_Preiskurant')" type="button" class="left_arrow">
-        <img src="image/arrow_left.png" alt="">
-        </button>
-        <img class="number_center" src="image/number2.png" alt="">
-        <button onclick="OPEN_INDEX('mkc')" type="button" class="button_back">
-            <img src="image/button_back.png" alt="">
-        </button>     
+<div class="categorii">
+    <p>1.Услуги стационара</p>
+    <br>
+    <p>2.Манипуляции</p>
+    <br>
+    <p>3.Услуги отделения восстановительного лечения и медицинской реабилитации</p>
+    <br>
+    <p>4.Услуги "Медико-консультативного центра"</p>
+    <br>
+    <p>5.Услуги хирургического отделения №1, №2 и гнойной хирургии</p>
+    <br>
+    <p>6.Услуги травматолого-ортопедического отделения</p>
+    <br>
+    <p>7.Услуги эндоскопического отделения</p>
+    <br>
+    <p>8.Услуги офтальмологического отделения</p>
+    <br>
+    <p>9.Услуги урологического отделения</p>
+    <br>
+    <p>10.Услуги отделения анестезиологии и реанимации</p>
+    <br>
+    <p>11.Услуги паталогоанатомического отделения</p>
+    <br>
+    <p>12.Отделение трансфузиологии и экстракорпоральной гемокоррекции</p>
+    <br>
+    <p>13.Услуги акушерско-гинекологической службы</p>
+    <br>
+    <p>14.Услуги медицинской реабилитации</p>
+    <br>
+    <p>15.Услуги отделения функциональной диагностики</p>
+    <br>
+    <p>16.Услуги отделения ультразвуковых исследований</p>
+    <br>
+    <p>17.Услуги рентгенологического отделения</p>
+    <br>
+    <p>18.Услуги кабинета томографических исследований</p>
+    <br>
+    <p>19.Клинические исследования</p>
+    <br>
+    <p>20.Биохимические исследований</p>
+    <br>
+    <p>21.Иммунохимические исследования</p>
+    <br>
+    <p>22.Серологические исследования</p>
+    <br>
+    <p>23.Бактериологические исследования</p>
+    <br>
+    <p>24.Немедицинские услуги</p>
+    <br>
+    <p>25.Сервисные услуги в отделении восстановительного лечения и медицинской реабилитации</p>
+    <br>
+    <p>26.Сервисные услуги во всех стационарных отделениях учреждения(за исключением отделения восстановительного лечения и медицинской реабилитации)</p>
+    <br>
+    <p>27.Прочие услуги</p>
+    <br>
+    <p>28.Услуги патологоанатомического отделения</p>
+</div>
+<div class="cont_pr">
+    <button class="pr1" onclick="OPEN_INDEX('p1')" type="button">Перейти</button>
+    <button class="pr2" onclick="OPEN_INDEX('p2')" type="button">Перейти</button>
+    <button class="pr3" onclick="OPEN_INDEX('p3')" type="button">Перейти</button>
+    <button class="pr4" onclick="OPEN_INDEX('p4')" type="button">Перейти</button>
+    <button class="pr5" onclick="OPEN_INDEX('p6')" type="button">Перейти</button>
+    <button class="pr6" onclick="OPEN_INDEX('p8')" type="button">Перейти</button>
+    <button class="pr7" onclick="OPEN_INDEX('p10')" type="button">Перейти</button>
+    <button class="pr8" onclick="OPEN_INDEX('p11')" type="button">Перейти</button>
+    <button class="pr9" onclick="OPEN_INDEX('p12')" type="button">Перейти</button>
+    <button class="pr10" onclick="OPEN_INDEX('p14')" type="button">Перейти</button>
+    <button class="pr11" onclick="OPEN_INDEX('p15')" type="button">Перейти</button>
+    <button class="pr12" onclick="OPEN_INDEX('p16')" type="button">Перейти</button>
+    <button class="pr13" onclick="OPEN_INDEX('p17')" type="button">Перейти</button>
+    <button class="pr14" onclick="OPEN_INDEX('p18')" type="button">Перейти</button>
+    <button class="pr15" onclick="OPEN_INDEX('p19')" type="button">Перейти</button>
+    <button class="pr16" onclick="OPEN_INDEX('p20')" type="button">Перейти</button>
+    <button class="pr17" onclick="OPEN_INDEX('p21')" type="button">Перейти</button>
+    <button class="pr18" onclick="OPEN_INDEX('p23')" type="button">Перейти</button>
+    <button class="pr19" onclick="OPEN_INDEX('p24')" type="button">Перейти</button>
+    <button class="pr20" onclick="OPEN_INDEX('p25')" type="button">Перейти</button>
+    <button class="pr21" onclick="OPEN_INDEX('p26')" type="button">Перейти</button>
+    <button class="pr22" onclick="OPEN_INDEX('p27')" type="button">Перейти</button>
+    <button class="pr23" onclick="OPEN_INDEX('p28')" type="button">Перейти</button>
+    <button class="pr24" onclick="OPEN_INDEX('p29')" type="button">Перейти</button>
+    <button class="pr25" onclick="OPEN_INDEX('p30')" type="button">Перейти</button>
+    <button class="pr26" onclick="OPEN_INDEX('p31')" type="button">Перейти</button>
+
 </div>
 
+</header>
+<!-- jquery -->
+<script src="./jquery-1.7.2.min.js" type="text/javascript"></script>
+<!-- easing plugin ( optional ) -->
+<script src="./easing.js" type="text/javascript"></script>
+<!-- UItoTop plugin -->
+<script src="./jquery.ui.totop.js" type="text/javascript"></script>
+<!-- Starting the plugin -->
+<script type="text/javascript">
+$(document).ready(function() {
 
-
+$().UItoTop({ easingType: 'easeOutQuart' });
+ 
+});
+</script>
 </body>
 </html>

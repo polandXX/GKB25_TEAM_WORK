@@ -26,11 +26,6 @@ var inner_rules2 = '11_mkc_inner_rules_second.html';
 var inner_rules3 = '11_mkc_inner_rules_third.html';
 
 var Preiskurant = '10_Preiskurant.html';
-var Preiskurant2 = '10_Preiskurant2.html';
-var Preiskurant3 = '10_Preiskurant3.html';
-var Preiskurant4 = '10_Preiskurant4.html';
-var Preiskurant5 = '10_Preiskurant5.html';
-var Preiskurant6 = '10_Preiskurant6.html';
 
 var pol_plat_med = '9_pol_plat_med.html';
 var pol_plat_med2 = '9_pol_plat_med_second.html';
@@ -489,20 +484,9 @@ function OPEN_INDEX(id){
     else if(id === '10_Preiskurant'){
         window.location.href = Preiskurant;
     }
-    else if(id === '10_Preiskurant2'){
-        window.location.href = Preiskurant2;
-    }
-    else if(id === '10_Preiskurant3'){
-        window.location.href = Preiskurant3;
-    }
-    else if(id === '10_Preiskurant4'){
-        window.location.href = Preiskurant4;
-    }
-    else if(id === '10_Preiskurant5'){
-        window.location.href = Preiskurant5;
-    }
-    else if(id === '10_Preiskurant6'){
-        window.location.href = Preiskurant6;
+    else if(id === 'p1')
+    {
+        window.location.href = url_price1;
     }
 }
 
