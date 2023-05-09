@@ -1,0 +1,313 @@
+// Определяем переменную для экономии памяти.
+var $doc = $(document);
+
+$doc
+	.on('input keyup', '.jq-selectbox__search input', function(e) {
+		// Обработка клика и тача по родительским пунктам меню
+		if (e.type == 'input') {
+			// $(this).off('keyup');
+		}
+		$(this).closest('ul').perfectScrollbar('update');
+
+	})
+	.on('click', '.services-list-header', function(event) {
+		// Обработка клика по заголовку в списках услуг
+		event.preventDefault();
+		$(this).toggleClass('active');
+	})
+
+	.on('click', '.tabs-switcher:not(.active):not(.disabled)', function(e) {
+		// Табы с генерацией события
+		var $thisTab = $(this),
+			$tabContent = $thisTab.closest('.tabs').find('.tabs-item'),
+			$thisTabContent = $tabContent.eq($thisTab.index());
+
+		$thisTab
+			.addClass('active')
+			.siblings().removeClass('active');
+
+		$tabContent.removeClass('active');
+		$thisTabContent.addClass('active');
+
+		$thisTab.trigger('tabClick', $thisTabContent);
+	})
+	.on('tabClick', function(e, data) {
+		/**
+		 * Отлавливаем событие клика по табу
+		 * Может пригодиться для обработки контента открытого таба
+		 */
+		// console.log(e, data);
+	})
+	.on('click', '.show-collapsed-days', function(event) {
+		event.preventDefault();
+		var $this = $(this),
+			$data = $this.data(),
+			$week = $('[data-week-id="' + $data.expandId + '"]');
+
+		if ($this.hasClass('expanded')) {
+			$week.addClass('collapsed');
+			$this.text($data.collapsedText).removeClass('expanded');
+		} else {
+			$week.removeClass('collapsed');
+			$this.text($data.expandedText).addClass('expanded');
+		}
+		$.fn.matchHeight._update();
+	})
+	.on('change', '.styler-steps', function() {
+		var url = $(this).find(":selected").data('url');
+		if (url) {
+			location = url;
+		}
+		return false;
+	})
+	.on('click', '.main-expand-btn', function(e) {
+		e.preventDefault();
+		var $this = $(this);
+
+		$this.parent().hide().parent().find('.main-expand-wrapper').addClass('expanded');
+	})
+	.on('change', '[data-checkbox-toggle-block]', function() {
+		var $this = $(this),
+			$target = $($this.data('checkboxToggleBlock'));
+		if ($this.prop('checked')) {
+			$target.removeClass('hide');
+		} else {
+			$target.addClass('hide');
+		}
+	})
+	.on('click', '.btn-schedule, .link-schedule', function (e) {
+		// Переменная вынесена сюда для удобства поддержки,
+		// на скорость работы это влияет меньше, чем на удобство поддержки.
+		var template = document.getElementById('schedule-template').innerHTML || '';
+
+		if (template) {
+			e.preventDefault();
+
+			var $this = $(this),
+				$thisData = $this.data(),
+				time = $this.text();
+			if ($this.hasClass('link-schedule')) {
+				time = $this.parent().prev('.timeTop').text() + ' - ' + $this.parent().next('.timeBottom').text();
+			}
+
+			var show = (cnJsTemplater(template, {
+				link: $this.prop('href'),
+				time: time,
+				data: $thisData
+			}));
+
+			$.magnificPopup.open({
+				items: {
+					src: show
+				},
+				type: 'inline'
+			});
+		}
+
+	})
+	.on('focusin touchend', 'ul.root > li > a', function(e) {
+		// Обработка выпадающего меню в шапке
+		var $this = $(this),
+			$parent = $this.closest('li'),
+			$second = $this.next('ul');
+		if (e.type == 'focusin') {
+			// Убираем у внутренних ссылок в меню tabindex
+			$('li.parent ul a').prop('tabindex', false);
+
+			// Добавляем tabindex для внутренних ссылок в текущем пункте меню
+			$second.find('a').prop('tabindex', 1);
+
+			if ($parent.hasClass('tabbed')) {
+				$parent.removeClass('tabbed');
+			} else {
+				$parent.addClass('tabbed').siblings().removeClass('tabbed');
+			}
+		};
+	})
+	.on('focusin mouseenter', 'ul.root > li > a', function(e) {
+		var $this = $(this),
+			$ul = $this.next('ul'),
+			thisPos = $this.position().top + 37;
+
+		$ul.css('top', thisPos);
+	})
+	.on('input keyup', '.search-in-page-input', function () {
+		var $this = $(this);
+
+		if ($this.val() != '' && !$this.hasClass('not-empty')) {
+			$this.addClass('not-empty');
+		}
+		if($this.val() == '') {
+			$this.removeClass('not-empty');
+		}
+	})
+	.on('click', '.search-in-page-reset', function() {
+		$('.search-in-page-input').removeClass('not-empty').focus();
+	})
+
+;
+
+
+
+if (window.frameCacheVars !== undefined) {
+	// Композит
+	BX.addCustomEvent('onFrameDataReceived', function (json) {
+		mainJsFile();
+	});
+}
+else {
+	// Обычный режим
+	jQuery(document).ready(function ($) {
+		mainJsFile();
+	});
+}
+
+// Основной js-код, выполняемый при загрузке страницы
+function mainJsFile() {
+
+	// Стилизация селектов
+	$('.styler').styler({
+		selectSearch: true,
+		selectSearchLimit: 20,
+		singleSelectzIndex: 1000,
+		onSelectOpened: function() {
+			// к открытому применяем плагин стилизации скроллбара
+			$(this).find('ul').perfectScrollbar();
+			// console.log('onSelectOpened', $(this).find('ul').html());
+		},
+		onFormStyled: function () {
+			$('.jq-selectbox').addClass('opacity-one');
+		}
+	});
+
+	// Одинаковая высота блоков
+	$('.equal').matchHeight();
+
+	// Слайдер на главной странице
+	$('.big-slider')
+		.owlCarousel({
+			items: 4,
+			/*dotsContainer: '.big-slider-nav',*/
+			nav: false,
+			autoplay: true,
+			loop:true,
+			autoplayTimeout:5000,
+			dots: true,
+			margin: 5,
+			responsive:{
+				0:{
+					items:1
+				},
+				576:{
+					items:2
+				},
+				992:{
+					items:4
+				}
+			}
+		})
+		.on('changed.owl.carousel', function (e) {
+			// т.к. точки слайдера добавляются только к первому контейнеру
+			// а по дизайну они должны быть во всех.
+			// Добавим их в остальные при смене слайдов
+			var $slider = $(e.target),
+				dotsHtml = $slider.find('.big-slider-nav:first').html();
+
+			$.each($slider.find('.big-slider-nav'), function(index, val) {
+				$(this).html(dotsHtml);
+			});
+		});
+
+	// Карусель в футере
+	var $footerCarousel = $('.footer-carousel'),
+		navEnable = ($footerCarousel.find('.slider-item').length <= 3) ? false : true;
+
+	$footerCarousel.owlCarousel({
+		items: 3,
+		nav: navEnable,
+		dots: false,
+		margin: 20,
+		responsive:{
+			0:{
+				items:1
+			},
+			576:{
+				items:2
+			},
+			992:{
+				items:3
+			}
+		}
+	});
+
+	// Fallback для ie9 в списке врачей
+	$('.bx-ie9 .tree-column').autocolumnlist({
+		columns: 3,
+		classname: 'col col-4',
+	});
+
+	// Липкий блок
+	$('.sticky').stick_in_parent();
+
+	// Тултипы
+	$('.tooltip').tooltipster();
+
+	// Галерея картинок
+	$('.image-gallery-item').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: 'true'
+		}
+	})
+}
+
+
+/**
+ * Простой js-шаблонизатор
+ *
+ * Установка шаблона:
+ *  <template id="tpl">
+ *  	<ul>
+ *  		{% for(var i in this.items) { %}
+ *  			<li>
+ *  				<b>{% this.items[i].name %}</b>
+ *  			</li>
+ *  		{% } %}
+ *  	</ul>
+ *  </template>
+ * �?спользование:
+ * var template = document.getElementById('tpl').innerHTML;
+ * var $items = {0:{'name': 'one'}, 1: {'name': 'two'}};
+ * var show = (cnJsTemplater(template, {
+				items: $items
+			}));
+ * console.log(show);
+ */
+
+function cnJsTemplater(html, options) {
+	'use strict';
+	var re = /\{%(.+?)%\}/g,
+		reExp = /(^( )?(var|if|for|else|switch|case|break|{|}|;))(.*)?/g,
+		code = 'with(obj) { var r=[];\n',
+		cursor = 0,
+		result,
+		match;
+	var add = function (line, js) {
+		js ? (code += line.match(reExp) ? line + '\n' : 'r.push(' + line + ');\n') :
+			(code += line !== '' ? 'r.push("' + line.replace(/"/g, '\\"') + '");\n' : '');
+		return add;
+	};
+	while (match = re.exec(html)) {
+		add(html.slice(cursor, match.index))(match[1], true);
+		cursor = match.index + match[0].length;
+	}
+	add(html.substr(cursor, html.length - cursor));
+	code = (code + 'return r.join(""); }').replace(/[\r\t\n]/g, '');
+	try {
+		result = new Function('obj', code).apply(options, [options]);
+	}
+	catch (err) {
+		console.error("'" + err.message + "'", " in \n\nCode:\n", code, "\n");
+	}
+	return result;
+}
