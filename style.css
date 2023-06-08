@@ -1229,14 +1229,14 @@ body{
     background-color: transparent;
     position:absolute;
     margin-top: 18px;
-    margin-left: 500px;
+    margin-left: 900px;
     border: none;
 }
 .right_arrow{
     background-color: transparent;
     position:absolute;
     margin-top: 18px;
-    margin-left: 770px;
+    margin-left: 1130px;
     border: none;
 }
 .box{
@@ -1259,7 +1259,7 @@ body{
 .number_center{
     position:absolute;
     margin-top: 18px;
-    margin-left: 650px;
+    margin-left: 1030px;
 }
 .scrollup{
     width:40px;
