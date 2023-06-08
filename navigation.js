@@ -95,14 +95,41 @@ var url_vid = 'vid.html'
 var url_por = '301_omc3_por.html'
 var url_ruk = '302_omc3_rul.html'
 var url_por2 = '303_omc3_por2.html'
-var url_prav2 = '304_omc3_prev2.html'
+var url_prav2 = '304_omc3_prev.html'
+var url_prav22 = '304_omc3_prev2.html'
+var url_prav23 = '304_omc3_prev3.html'
+var url_prav24 = '304_omc3_prev4.html'
+var url_prav25 = '304_omc3_prev5.html'
+var url_prav26 = '304_omc3_prev6.html'
+var url_prav27 = '304_omc3_prev7.html'
+var url_prav28 = '304_omc3_prev8.html'
+var url_prav29 = '304_omc3_prev9.html'
+var url_prav210 = '304_omc3_prev10.html'
+var url_prav211 = '304_omc3_prev11.html'
+var url_prav212 = '304_omc3_prev12.html'
+var url_prav213 = '304_omc3_prev13.html'
+var url_prav214 = '304_omc3_prev14.html'
+var url_prav215 = '304_omc3_prev15.html'
+var url_prav216 = '304_omc3_prev16.html'
+var url_prav217 = '304_omc3_prev17.html'
+var url_prav218 = '304_omc3_prev18.html'
+var url_prav219 = '304_omc3_prev19.html'
 var url_por3 = '305_omc3_por3.html'
 var ulr_pol = '306_omc3_pol.html'
 var url_pam = '307_omc3_pam.html'
+var url_pam2 = '307_omc3_pam2.html'
+var url_pam3 = '307_omc3_pam3.html'
+var url_pam4 = '307_omc3_pam4.html'
+var url_pam5 = '307_omc3_pam5.html'
 var url_prav3 = '308_omc3_prav3.html'
 var url_por4 = '309_omc3_por4.html'
 var url_reg = '310_omc3_reg.html'
+var url_reg2 = '310_omc3_reg2.html'
+var url_reg3 = '310_omc3_reg3.html'
 var url_sroki = '311_omc3_sroki.html'
+var url_sroki2 = '311_omc3_sroki2.html'
+var url_sroki3 = '311_omc3_sroki3.html'
+var url_sroki4 = '311_omc3_sroki4.html'
 var url_prav4 = '312_omc3_prav4.html'
 var url_por5 = '313_omc3_por5.html'
 
@@ -140,6 +167,8 @@ var url_OMC_4P ='OMC_four_page.html';
 //Corrupt
 var url_cor1 = '801_cor.html';
 var url_cor2 = '802_cor.html';
+var url_cor22 = '802_cor2.html';
+var url_cor23 = '802_cor3.html';
 var url_cor3 = '803_cor.html';
 var url_cor4 = '804_cor.html';
 var url_cor5 = '805_cor.html';
@@ -196,7 +225,7 @@ function OPEN_INDEX(id){
     else if(id === 'OMC_3P'){
         window.location.href = url_OMC_3P;
     }
-    else if(id === 'OMC_4'){
+    else if(id === 'OMC_4P'){
         window.location.href = url_OMC_4P;
     }
     else if(id === 'doki'){
@@ -488,6 +517,211 @@ function OPEN_INDEX(id){
     {
         window.location.href = url_price1;
     }
+
+    else if(id === 'cor1')
+    {
+        window.location.href = url_cor1;
+    }
+    else if(id === 'cor2')
+    {
+        window.location.href = url_cor2;
+    }
+    else if(id === 'cor22')
+    {
+        window.location.href = url_cor22;
+    }
+    else if(id === 'cor23')
+    {
+        window.location.href = url_cor23;
+    }
+    else if(id === 'cor3')
+    {
+        window.location.href = url_cor3;
+    }
+    else if(id === 'cor4')
+    {
+        window.location.href = url_cor4;
+    }
+    else if(id === 'cor5')
+    {
+        window.location.href = url_cor5;
+    }
+    else if(id === 'cor6')
+    {
+        window.location.href = url_cor6;
+    }
+    else if(id === 'omc31')
+    {
+        window.location.href = url_por;
+    }
+    else if(id === 'omc32')
+    {
+        window.location.href = url_ruk;
+    }
+    else if(id === 'omc33')
+    {
+        window.location.href = url_por2;
+    }
+    else if(id === 'omc34')
+    {
+        window.location.href = url_prav2;
+    }
+    else if(id === 'prev2')
+    {
+        window.location.href = url_prav22;
+    }
+    else if(id === 'prev3')
+    {
+        window.location.href = url_prav23;
+    }
+    else if(id === 'prev4')
+    {
+        window.location.href = url_prav24;
+    }
+    else if(id === 'prev5')
+    {
+        window.location.href = url_prav25;
+    }
+    else if(id === 'prev6')
+    {
+        window.location.href = url_prav26;
+    }
+    else if(id === 'prev7')
+    {
+        window.location.href = url_prav27;
+    }
+    else if(id === 'prev8')
+    {
+        window.location.href = url_prav28;
+    }
+    else if(id === 'prev9')
+    {
+        window.location.href = url_prav29;
+    }
+    else if(id === 'prev10')
+    {
+        window.location.href = url_prav210;
+    }
+    else if(id === 'prev11')
+    {
+        window.location.href = url_prav211;
+    }
+    else if(id === 'prev12')
+    {
+        window.location.href = url_prav212;
+    }
+    else if(id === 'prev13')
+    {
+        window.location.href = url_prav213;
+    }
+    else if(id === 'prev14')
+    {
+        window.location.href = url_prav214;
+    }
+    else if(id === 'prev15')
+    {
+        window.location.href = url_prav215;
+    }
+    else if(id === 'prev16')
+    {
+        window.location.href = url_prav216;
+    }
+    else if(id === 'prev17')
+    {
+        window.location.href = url_prav217;
+    }
+    else if(id === 'prev18')
+    {
+        window.location.href = url_prav218;
+    }
+    else if(id === 'prev19')
+    {
+        window.location.href = url_prav219;
+    }
+    else if(id === 'omc35')
+    {
+        window.location.href = url_por3;
+    }
+    else if(id === 'omc36')
+    {
+        window.location.href = url_pol;
+    }
+    else if(id === 'omc37')
+    {
+        window.location.href = url_pam;
+    }
+    else if(id === 'pam2')
+    {
+        window.location.href = url_pam2;
+    }
+    else if(id === 'pam3')
+    {
+        window.location.href = url_pam3;
+    }
+    else if(id === 'pam4')
+    {
+        window.location.href = url_pam4;
+    }
+    else if(id === 'pam5')
+    {
+        window.location.href = url_pam5;
+    }
+    else if(id === 'omc38')
+    {
+        window.location.href = url_prav3;
+    }
+    else if(id === 'omc39')
+    {
+        window.location.href = url_por4 ;
+    }
+    else if(id === 'omc310')
+    {
+        window.location.href = url_reg;
+    }
+    else if(id === 'reg2')
+    {
+        window.location.href = url_reg2;
+    }
+    else if(id === 'reg3')
+    {
+        window.location.href = url_reg3;
+    }
+    else if(id === 'omc311')
+    {
+        window.location.href = url_sroki;
+    }
+    else if(id === 'sroki2')
+    {
+        window.location.href = url_sroki2;
+    }
+    else if(id === 'sroki3')
+    {
+        window.location.href = url_sroki3;
+    }
+    else if(id === 'sroki4')
+    {
+        window.location.href = url_sroki4;
+    }
+    else if(id === 'omc312')
+    {
+        window.location.href = url_prav4;
+    }
+    else if(id === 'omc313')
+    {
+        window.location.href = url_por5;
+    }
+   
+
+    else if(id === 'omc42')
+    {
+        window.location.href = url_zak1;
+    }
+    else if(id === 'omc43')
+    {
+        window.location.href = url_zak2;
+    }
+    else if(id === 'omc44')
+    {
+        window.location.href = url_zak3;
+    }
 }
-
-

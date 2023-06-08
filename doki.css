@@ -51,7 +51,10 @@ body
     height: 50px;
     font-size: 20px;
 }
-
+.text
+{
+    font-size: 26px;
+}
 .conteinertext
 {
     margin-top: 10px;
@@ -123,6 +126,11 @@ body
     color: limegreen;
 }
 
+.rej3
+{
+    padding-bottom: 30px;
+}
+
 .containernomera
 {
     margin-top: 50px;
@@ -131,9 +139,7 @@ body
 
 .licensess
 {
-    margin-top: -1000px;
-    margin-left: 900px;
-    position: absolute;
+    margin-left: 520px;
     background-color: transparent;
     border: none;
 }

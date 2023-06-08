@@ -32,7 +32,7 @@
 }
 
 .b1:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .b2:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .b3:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -196,7 +196,7 @@
 }
 
 .b4:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -250,7 +250,7 @@
 }
 
 .b5:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -293,7 +293,7 @@
 }
 
 .b6:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -335,7 +335,7 @@
 }
 
 .b7:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -391,7 +391,7 @@
 }
 
 .b8:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -445,7 +445,7 @@
 }
 
 .b9:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -499,7 +499,7 @@
 }
 
 .b10:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -553,7 +553,7 @@
 }
 
 .b11:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -596,7 +596,7 @@
 }
 
 .b12:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -638,7 +638,7 @@
 }
 
 .b13:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -680,7 +680,7 @@
 }
 
 .b14:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 

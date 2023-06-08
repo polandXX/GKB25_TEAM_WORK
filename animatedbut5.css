@@ -31,7 +31,7 @@
 }
 
 .fpb1:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .fpb2:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .fpb3:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .fpb4:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -249,7 +249,7 @@
 }
 
 .fpb5:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -292,7 +292,7 @@
 }
 
 .fpb6:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -334,7 +334,7 @@
 }
 
 .fpb7:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -390,7 +390,7 @@
 }
 
 .fpb8:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -444,7 +444,7 @@
 }
 
 .fpb9:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -498,7 +498,7 @@
 }
 
 .fpb10:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -552,7 +552,7 @@
 }
 
 .fpb11:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -595,7 +595,7 @@
 }
 
 .fpb12:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -637,7 +637,7 @@
 }
 
 .fpb13:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -679,7 +679,7 @@
 }
 
 .fpb14:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -721,7 +721,7 @@
 }
 
 .fpb15:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 

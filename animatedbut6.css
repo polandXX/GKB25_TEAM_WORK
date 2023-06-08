@@ -31,7 +31,7 @@
 }
 
 .cor1:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .cor2:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .cor3:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .cor4:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -249,7 +249,7 @@
 }
 
 .cor5:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -292,7 +292,7 @@
 }
 
 .cor6:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 

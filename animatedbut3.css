@@ -31,7 +31,7 @@
 }
 
 .b28:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .b29:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .b30:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .b31:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -249,7 +249,7 @@
 }
 
 .b32:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -292,7 +292,7 @@
 }
 
 .b33:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -334,7 +334,7 @@
 }
 
 .b34:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
@@ -390,7 +390,7 @@
 }
 
 .b35:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.4) scaleY(1);
     opacity: 0;
 }
 
